@@ -1,0 +1,36 @@
+form{
+    width: 90%;
+    min-height: 100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(189, 188, 188);
+}
+#property{
+    width: 100%;
+    min-height: 100px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#editor{
+    width: 90%;
+    min-height: 350px;
+    background-color: yellow;
+       border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(189, 188, 188);
+    outline: none;
+    padding: 2%;
+}
+form>button{
+    width: 80px;
+    height: 30px;
+}
