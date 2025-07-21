@@ -54,6 +54,7 @@ form {
   box-shadow: 0 0 10px rgb(189, 188, 188);
   outline: none;
   padding: 2%;
+  font-size: 18px;
 }
 form > button {
   width: 150px;
