@@ -1,16 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WYSIWYG Editor</title>
-    <link rel="stylesheet" href="assetes/css/style.css">
-</head>
-<body>
-<form action="">
-    <div id="property"></div>
-    <div id="editor" contenteditable="true"></div>
-    <button type="submit">Save</button>
-</form>
-</body>
+    <link rel="stylesheet" href="assetes/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="assetes/js/main.js"></script>
+  </head>
+  <body>
+    <form action="">
+      <div id="property">
+        <button type="button"><i class="fa-solid fa-italic"></i></button>
+        <button type="button"><i class="fa-solid fa-bold"></i></button>
+        <button type="button"><i class="fa-solid fa-align-left"></i></button>
+        <button type="button"><i class="fa-solid fa-align-center"></i></button>
+        <button type="button"><i class="fa-solid fa-align-right"></i></button>
+        <button type="button"><i class="fa-solid fa-strikethrough"></i></button>
+        <button type="button"><i class="fa-solid fa-underline"></i></button>
+        <button type="button"><i class="fa-solid fa-list-ul"></i></button>
+        <button type="button"><i class="fa-solid fa-list-ol"></i></button>
+        <button type="button"><i class="fa-solid fa-quote-left"></i></button>
+        <button type="button"><i class="fa-solid fa-paint-roller"></i></button>
+        <button type="button"><i class="fa-solid fa-minus"></i></button>
+        <button type="button"><i class="fa-solid fa-indent"></i></button>
+        <button type="button"><i class="fa-solid fa-outdent"></i></button>
+        <button type="button"><i class="fa-solid fa-text-height"></i></button>
+        <button type="button"><i class="fa-solid fa-link"></i></button>
+        <input type="color" />
+        <input type="number" value="10"/>
+        <button type="button"><i class="fa-solid fa-images"></i></button>
+        <button type="button"><i class="fa-solid fa-video"></i></button>
+      </div>
+      <div id="editor" contenteditable="true"></div>
+      <button type="submit">Save</button>
+    </form>
+  </body>
 </html>
